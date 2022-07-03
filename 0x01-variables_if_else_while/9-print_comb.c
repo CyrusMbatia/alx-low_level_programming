@@ -1,12 +1,13 @@
 #include <stdio.h>
 /**
- * main - This program prints all possible combinations of single-digit numbers.
+ * main - This program prints all possible combinations of single-digit number
  * and uses the function putchar
  * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int p;
+
 	for (p = 48; p <= 57; p++)
 	{
 		putchar(p);
@@ -18,5 +19,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}
 }
