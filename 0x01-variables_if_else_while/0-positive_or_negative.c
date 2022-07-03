@@ -1,7 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-/* betty style doc for function main goes there */
+/**
+ * main - This program will assign a random number to the variable
+ * n each time it is executed
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
@@ -10,14 +13,14 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	return (0);
-
 	if
-	       	(n > 0);
+		(n > 0);
 	{
 
 		printf("n is positive\n");
 	}
-	else if (n = 0)
+	else if
+		(n = 0)
 	{
 		printf("n is zero\n");
 	}
