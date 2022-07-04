@@ -1,30 +1,26 @@
-#include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
+#include <stdlib.h>
 /**
- * main - This program will assign a random number to the variable
- * n each time it is executed
- * Return: Always 0 (Success)
+ * main - main block
+ * Description - Get and print a random number
+ * if it is positive, negative, or zero
+ * Return: Always (0) Success
  */
+
 int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	return (0);
-	if
-		(n > 0);
-	{
 
-		printf("n is positive\n");
-	}
-	else if
-		(n = 0)
-	{
-		printf("n is zero\n");
-	}
+	if (n > 0)
+		printf("%d is positive\n", n);
+	else if (n < 0)
+		printf("%d is negative\n", n);
 	else
-	{
-		printf("n is negative\n");
-	}
+		printf("%d is zero\n", n);
+
+	return (0);
 }
