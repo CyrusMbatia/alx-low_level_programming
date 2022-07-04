@@ -6,7 +6,7 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{
+
 	int i, b;
 
 	for (i = '0'; i <= '8'; i++)
