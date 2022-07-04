@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - This program outputs a random number to the screen
+ * main - This program outputs a random number to thecreen
  *
  * Return: Always 0 (Success)
  */
@@ -12,7 +12,7 @@ int main(void)
 {
 	int n;
 
-	srand(time(0));
+rand(time(0));
 	n = rand() - RAND_MAX / 2;
 	last_digit = n % 10;
 	if (last_digit > 5)
