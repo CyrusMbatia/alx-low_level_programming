@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * int _isalpha - checks for alphabetic character
+ * _isalpha - checks for alphabetic character
+ * c - ASCII code
  * Return: Always 0
  */
 int _isalpha(int c)
@@ -11,7 +12,7 @@ int _isalpha(int c)
 		return (1);
 	}
 	else
-	{ 
+	}
 		return (0);
 	}
 	_putchar('\n');
