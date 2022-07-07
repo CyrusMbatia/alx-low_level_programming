@@ -9,7 +9,7 @@
  */
 int _isupper(int c)
 {
-	if(c <= 99 && c >=65);
+	if(c <= 99 && c >=65)
 	{
 		return 1;
 	}
