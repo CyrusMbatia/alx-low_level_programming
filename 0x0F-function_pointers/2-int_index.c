@@ -3,10 +3,10 @@
 /**
  * int_index - searches for an interger
  * @array: input integer array
- * @size of the array
+ * @size: size of the array
  * @cmp: pointer to the function
  *
- * Returns: index of the first element for which the cmp function not return 0
+ * Return: index of the first element for which the cmp function not return 0
  * If no element matches, return -1
  * If size <= 0, return -1
  */
